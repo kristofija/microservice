@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-@RequestMapping("/numbers")
+@RequestMapping("/ui")
 public class NumbersController {
-    @GetMapping
+    @GetMapping("/numbers")
     NumbersDto create(@RequestBody NumbersDto numbersDto) {
         log.info("Received create number request: {}", numbersDto);
         return new NumbersDto();
