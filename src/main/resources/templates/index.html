@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title> Numbers List</title>
 </head>
 <body>
 <h1> Welcome! </h1>
-<form action="#">
-    <label for="pnum"> Insert number </label><br>
-    <input type="text" id="pnum"><br>
+<form action="#" th:action="@{/findCountry}" method="post">
+    <label for="phoneNumber"> Insert number </label><br>
+    <input type="text" id="phoneNumber"><br>
     <input type="submit" value="Submit">
 </form>
 </body>

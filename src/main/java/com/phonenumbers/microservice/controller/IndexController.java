@@ -8,9 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
     //@RequestMapping("/ui")
     public class IndexController {
 
-        @GetMapping("/ui/")
+        @GetMapping
         public String getIndex(){
             return "index";
         }
     }
+
+
 

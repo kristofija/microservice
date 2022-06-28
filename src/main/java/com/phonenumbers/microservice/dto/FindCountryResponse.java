@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class NumbersDto {
-    String phoneNumbers;
-    String countryName;
+public class FindCountryResponse {
+
+    private String country;
 }
